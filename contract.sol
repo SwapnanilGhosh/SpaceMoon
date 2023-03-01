@@ -716,7 +716,7 @@ contract ShilaStaking is Ownable, ReentrancyGuard {
 
     constructor(
     ) {
-        stakingToken = IBEP20(0xBC2501F96AC67152D546C5356B10f055e4A7B3FD);
+        stakingToken = IBEP20(0x20c3fa331A385b63EE39137e99d0cF2db142fCe1);
         rewardToken = stakingToken;
 
         apy = 100;
